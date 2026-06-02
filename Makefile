@@ -47,6 +47,8 @@ endif
 
 obj-m += $(TARGET).o
 $(TARGET)-objs += src/modules/ksyms/p_resolve_ksym.o \
+                  src/task_info.o \
+                  src/risk_engine.o \
                   src/modules/hashing/p_lkrg_fast_hash.o \
                   src/modules/comm_channel/p_comm_channel.o \
                   src/modules/integrity_timer/p_integrity_timer.o \
