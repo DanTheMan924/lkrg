@@ -1,3 +1,5 @@
+//This file collects task information for risk analysis including process pid, uid, executible path, and more
+
 #include <linux/cred.h>
 #include<linux/sched.h>
 #include "task_info.h"
